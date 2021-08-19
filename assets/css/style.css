@@ -1,0 +1,484 @@
+@font-face {
+  font-family: 'Acumin Pro Wide';
+  src: url("./Font/Acumin Pro Wide Semibold.otf");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Acumin Pro Wide';
+  src: url("./Font/Acumin Pro Wide Bold.otf");
+  font-style: normal;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Acumin Pro Wide';
+  src: url("./Font/Acumin Pro Wide Medium.otf");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Acumin Pro Wide';
+  src: url("./Font/Acumin Pro Wide Light.otf");
+  font-style: normal;
+  font-weight: 300;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* PRELOADER */
+#preloader {
+  background: #edf2f4;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+}
+
+.status {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 1rem;
+  -webkit-animation: fill-white 1s ease forwards 3s;
+          animation: fill-white 1s ease forwards 3s;
+}
+
+#loader {
+  width: 100%;
+}
+
+#loader path:nth-child(1) {
+  stroke-dasharray: 611.8634033203125;
+  stroke-dashoffset: 611.8634033203125;
+  -webkit-animation: line-anime 2s ease forwards 0.3s, fill-white 2s ease 2s forwards;
+          animation: line-anime 2s ease forwards 0.3s, fill-white 2s ease 2s forwards;
+}
+
+#loader path:nth-child(2) {
+  stroke-dasharray: 544.0450439453125;
+  stroke-dashoffset: 544.0450439453125;
+  -webkit-animation: line-anime 2s ease forwards 0.4s, fill-white 2s ease 2s forwards;
+          animation: line-anime 2s ease forwards 0.4s, fill-white 2s ease 2s forwards;
+}
+
+#loader path:nth-child(3) {
+  stroke-dasharray: 439.681640625;
+  stroke-dashoffset: 439.681640625;
+  -webkit-animation: line-anime 2s ease forwards 0.6s, fill-white 2s ease 2s forwards;
+          animation: line-anime 2s ease forwards 0.6s, fill-white 2s ease 2s forwards;
+}
+
+#loader path:nth-child(4) {
+  stroke-dasharray: 519.6200561523438;
+  stroke-dashoffset: 519.6200561523438;
+  -webkit-animation: line-anime 2s ease forwards 0.8s, fill-white 2s ease 2s forwards;
+          animation: line-anime 2s ease forwards 0.8s, fill-white 2s ease 2s forwards;
+}
+
+#loader path:nth-child(5) {
+  stroke-dasharray: 417.81146240234375;
+  stroke-dashoffset: 417.81146240234375;
+  -webkit-animation: line-anime 2s ease forwards 1s, fill-white 2s ease 2s forwards;
+          animation: line-anime 2s ease forwards 1s, fill-white 2s ease 2s forwards;
+}
+
+#loader path:nth-child(6) {
+  stroke-dasharray: 417.8115234375;
+  stroke-dashoffset: 417.8115234375;
+  -webkit-animation: line-anime 2s ease forwards 1.2s, fill-white 2s ease 2s forwards;
+          animation: line-anime 2s ease forwards 1.2s, fill-white 2s ease 2s forwards;
+}
+
+#loader path:nth-child(7) {
+  stroke-dasharray: 273;
+  stroke-dashoffset: 273;
+  -webkit-animation: line-anime 2s ease forwards 1.4s, fill-white 2s ease 2s forwards;
+          animation: line-anime 2s ease forwards 1.4s, fill-white 2s ease 2s forwards;
+}
+
+@-webkit-keyframes line-anime {
+  to {
+    stroke-dashoffset: 1;
+  }
+}
+
+@keyframes line-anime {
+  to {
+    stroke-dashoffset: 1;
+  }
+}
+
+@-webkit-keyframes fill-white {
+  from {
+    fill: #d90429;
+  }
+  to {
+    fill: #d90429;
+  }
+}
+
+@keyframes fill-white {
+  from {
+    fill: #d90429;
+  }
+  to {
+    fill: #d90429;
+  }
+}
+
+@font-face {
+  font-family: 'Acumin Pro Wide';
+  src: url("./Font/Acumin Pro Wide Semibold.otf");
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Acumin Pro Wide';
+  src: url("./Font/Acumin Pro Wide Bold.otf");
+  font-style: normal;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Acumin Pro Wide';
+  src: url("./Font/Acumin Pro Wide Medium.otf");
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Acumin Pro Wide';
+  src: url("./Font/Acumin Pro Wide Light.otf");
+  font-style: normal;
+  font-weight: 300;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+/* PRELOADER */
+#preloader {
+  background: #edf2f4;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 9999;
+}
+
+.status {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  font-size: 1rem;
+  -webkit-animation: fill-white 1s ease forwards 3s;
+          animation: fill-white 1s ease forwards 3s;
+}
+
+#loader {
+  width: 100%;
+}
+
+#loader path:nth-child(1) {
+  stroke-dasharray: 611.8634033203125;
+  stroke-dashoffset: 611.8634033203125;
+  -webkit-animation: line-anime 2s ease forwards 0.3s, fill-white 2s ease 2s forwards;
+          animation: line-anime 2s ease forwards 0.3s, fill-white 2s ease 2s forwards;
+}
+
+#loader path:nth-child(2) {
+  stroke-dasharray: 544.0450439453125;
+  stroke-dashoffset: 544.0450439453125;
+  -webkit-animation: line-anime 2s ease forwards 0.4s, fill-white 2s ease 2s forwards;
+          animation: line-anime 2s ease forwards 0.4s, fill-white 2s ease 2s forwards;
+}
+
+#loader path:nth-child(3) {
+  stroke-dasharray: 439.681640625;
+  stroke-dashoffset: 439.681640625;
+  -webkit-animation: line-anime 2s ease forwards 0.6s, fill-white 2s ease 2s forwards;
+          animation: line-anime 2s ease forwards 0.6s, fill-white 2s ease 2s forwards;
+}
+
+#loader path:nth-child(4) {
+  stroke-dasharray: 519.6200561523438;
+  stroke-dashoffset: 519.6200561523438;
+  -webkit-animation: line-anime 2s ease forwards 0.8s, fill-white 2s ease 2s forwards;
+          animation: line-anime 2s ease forwards 0.8s, fill-white 2s ease 2s forwards;
+}
+
+#loader path:nth-child(5) {
+  stroke-dasharray: 417.81146240234375;
+  stroke-dashoffset: 417.81146240234375;
+  -webkit-animation: line-anime 2s ease forwards 1s, fill-white 2s ease 2s forwards;
+          animation: line-anime 2s ease forwards 1s, fill-white 2s ease 2s forwards;
+}
+
+#loader path:nth-child(6) {
+  stroke-dasharray: 417.8115234375;
+  stroke-dashoffset: 417.8115234375;
+  -webkit-animation: line-anime 2s ease forwards 1.2s, fill-white 2s ease 2s forwards;
+          animation: line-anime 2s ease forwards 1.2s, fill-white 2s ease 2s forwards;
+}
+
+#loader path:nth-child(7) {
+  stroke-dasharray: 273;
+  stroke-dashoffset: 273;
+  -webkit-animation: line-anime 2s ease forwards 1.4s, fill-white 2s ease 2s forwards;
+          animation: line-anime 2s ease forwards 1.4s, fill-white 2s ease 2s forwards;
+}
+
+@keyframes line-anime {
+  to {
+    stroke-dashoffset: 1;
+  }
+}
+
+@keyframes fill-white {
+  from {
+    fill: #d90429;
+  }
+  to {
+    fill: #d90429;
+  }
+}
+
+.button-primary, .button-secondary {
+  display: inline-block;
+  padding: 12px 20px;
+  margin: 3px;
+  text-align: center;
+  text-decoration: none;
+}
+
+border .button-primary:hover, border .button-secondary:hover {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+}
+
+.button-primary {
+  background: #d90429;
+  color: #ffffff;
+  border: 1px solid #d90429;
+}
+
+.button-secondary {
+  background: #fff0f2;
+  color: #2b2d42;
+  border: 1px solid #fff0f2;
+}
+
+body {
+  font-family: "Acumin Pro Wide", Helvetica, sans-serif;
+  position: relative;
+}
+
+.header {
+  position: relative;
+  background-color: #edf2f4;
+  padding: 1px;
+}
+
+.header .nave {
+  background-color: #edf2f4;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.header nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2rem 1rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.header nav a {
+  text-decoration: none;
+}
+
+.header nav .desktop-nav {
+  display: none;
+}
+
+.header nav .hamburger {
+  font-size: 1.6rem;
+}
+
+.header nav .nav-links .nav-lin {
+  padding: 1rem;
+  color: #2b2d42;
+  font-weight: 500;
+}
+
+.header nav .nav-links .active {
+  background: blue;
+}
+
+.header-hero {
+  height: 100%;
+  margin-top: 8rem;
+}
+
+.header-hero .hero-text {
+  font-weight: 300;
+  font-size: 1.3rem;
+  color: #2b2d42;
+}
+
+.header-hero .hero-title {
+  font-weight: 900;
+  font-size: 2.2rem;
+  color: #2b2d42;
+}
+
+.header-hero .hero-title .ninja {
+  width: 20%;
+}
+
+.header-hero .hero-span {
+  color: rgba(141, 153, 174, 0.2);
+  position: relative;
+}
+
+.header-hero .hero-span::after {
+  content: ' ';
+  position: absolute;
+  background: #d90429;
+  width: 197px;
+  height: 2px;
+  -webkit-transform: matrix(-1, 0.245, 0, 1, -175, 25);
+          transform: matrix(-1, 0.245, 0, 1, -175, 25);
+}
+
+.header-hero .hero-span::before {
+  content: ' ';
+  position: absolute;
+  background: #d90429;
+  width: 125px;
+  height: 2px;
+  -webkit-transform: matrix(1, 0.245, 0, 1, 35, 29);
+          transform: matrix(1, 0.245, 0, 1, 35, 29);
+}
+
+.header-hero .hero-p {
+  color: #2b2d42;
+  line-height: 24px;
+}
+
+.header-hero .hero-image {
+  margin: 0 auto;
+  width: 70%;
+}
+
+.header .helper-div {
+  position: absolute;
+  top: 95%;
+  left: 0;
+  width: 100%;
+}
+
+.header .helper-div .img-helper {
+  width: 100%;
+}
+
+.navscroll {
+  background: #ffffff;
+  max-height: 110px;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.skill-section {
+  background: #ffffff;
+  margin-top: 9rem;
+  padding: 1px;
+}
+
+@media all and (max-width: 398px) {
+  .header-hero .hero-span::before {
+    content: ' ';
+    position: absolute;
+    background: #d90429;
+    width: 125px;
+    height: 2px;
+    -webkit-transform: matrix(1, 0.245, 0, 1, -135, 69);
+            transform: matrix(1, 0.245, 0, 1, -135, 69);
+  }
+}
+
+@media all and (min-width: 768px) {
+  .header nav {
+    padding: 2rem 4.7rem;
+  }
+  .header .hero-image {
+    margin: initial;
+    width: 25%;
+  }
+}
+
+@media (min-width: 992px) {
+  .header nav {
+    padding: 2rem 6rem;
+  }
+  .header nav .desktop-nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .mobile {
+    display: none;
+  }
+  .header-hero {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
+
+@media (min-width: 1200px) {
+  .header nav {
+    padding: 2rem 9rem;
+  }
+}
+
+@media (min-width: 1400px) {
+  .header nav {
+    padding: 2rem 10rem;
+  }
+}

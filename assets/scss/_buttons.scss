@@ -1,0 +1,23 @@
+@import 'config';
+%button {
+	display: inline-block;
+	padding: 12px 20px;
+	margin: 3px;
+	text-align: center;
+	text-decoration: none;
+	border &:hover {
+		transform: scale(0.98);
+	}
+}
+.button-primary {
+	@extend %button;
+	background: $accent-color;
+	color: $white;
+	border: 1px solid $accent-color;
+}
+.button-secondary {
+	@extend %button;
+	background: $light-pink;
+	color: $text;
+	border: 1px solid $light-pink;
+}

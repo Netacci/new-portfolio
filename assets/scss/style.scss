@@ -1,0 +1,182 @@
+@import 'config';
+@import 'buttons';
+
+body {
+	font-family: $font-stack;
+	position: relative;
+}
+
+.header {
+	position: relative;
+	background-color: $bg-color;
+	padding: 1px;
+	.nave {
+		background-color: $bg-color;
+		transition: all 0.2s ease;
+	}
+	nav {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 2rem 1rem;
+		position: fixed;
+		top: 0;
+		right: 0;
+		left: 0;
+		z-index: 1030;
+
+		a {
+			text-decoration: none;
+		}
+		.desktop-nav {
+			display: none;
+		}
+		.hamburger {
+			font-size: 1.6rem;
+		}
+		.nav-links {
+			.nav-lin {
+				padding: 1rem;
+				color: $text;
+				font-weight: 500;
+			}
+			.active {
+				background: blue;
+			}
+		}
+	}
+	&-hero {
+		height: 100%;
+
+		margin-top: 8rem;
+
+		.hero-text {
+			font-weight: 300;
+			font-size: 1.3rem;
+			color: $text;
+		}
+		.hero-title {
+			font-weight: 900;
+			font-size: 2.2rem;
+			color: $text;
+			.ninja {
+				width: 20%;
+			}
+		}
+		.hero-span {
+			color: rgba(141, 153, 174, 0.2);
+			position: relative;
+		}
+		.hero-span::after {
+			content: ' ';
+			position: absolute;
+			background: $accent-color;
+			width: 197px;
+			height: 2px;
+			transform: matrix(-1, 0.245, 0, 1, -175, 25);
+		}
+		// .hero-span::before {
+		// 	content: ' ';
+		// 	position: absolute;
+		// 	background: $accent-color;
+		// 	width: 197px;
+		// 	height: 2px;
+		// 	transform: matrix(-1, 0.245, 0, 1, -175, 25);
+		// }
+		.hero-span::before {
+			content: ' ';
+			position: absolute;
+			background: $accent-color;
+			width: 125px;
+			height: 2px;
+			transform: matrix(1, 0.245, 0, 1, 35, 29);
+		}
+		.hero-p {
+			color: $text;
+			line-height: 24px;
+		}
+		.hero-image {
+			margin: 0 auto;
+			width: 70%;
+		}
+	}
+	.helper-div {
+		position: absolute;
+		top: 95%;
+		left: 0;
+		width: 100%;
+		.img-helper {
+			width: 100%;
+		}
+	}
+}
+.navscroll {
+	background: $white;
+	max-height: 110px;
+	transition: all 0.2s ease;
+}
+// END OF HEADER
+
+// SKILLS SECTION BEGIN
+
+.skill-section {
+	background: $white;
+	margin-top: 9rem;
+	padding: 1px;
+}
+@media all and (max-width: 398px) {
+	.header-hero {
+		.hero-span::before {
+			content: ' ';
+			position: absolute;
+			background: $accent-color;
+			width: 125px;
+			height: 2px;
+			transform: matrix(1, 0.245, 0, 1, -135, 69);
+		}
+	}
+}
+
+@media all and (min-width: 768px) {
+	.header {
+		nav {
+			padding: 2rem 4.7rem;
+		}
+		.hero-image {
+			margin: initial;
+			width: 25%;
+		}
+	}
+}
+
+@media (min-width: 992px) {
+	.header {
+		nav {
+			padding: 2rem 6rem;
+			.desktop-nav {
+				display: flex;
+			}
+		}
+	}
+	.mobile {
+		display: none;
+	}
+	.header-hero {
+		align-items: center;
+		justify-content: space-evenly;
+	}
+}
+@media (min-width: 1200px) {
+	.header {
+		nav {
+			padding: 2rem 9rem;
+		}
+	}
+}
+@media (min-width: 1400px) {
+	.header {
+		nav {
+			padding: 2rem 10rem;
+		}
+	}
+}
