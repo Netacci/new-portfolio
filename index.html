@@ -107,7 +107,7 @@
 			<!-- HEADER STARTS -->
 			<header class="header" id="intro">
 				<div class="container">
-					<nav id="nav" class="nave ">
+					<nav id="nav" class="nave d-flex justify-content-between px-4 px-lg-0 justify-content-lg-around align-items-center">
 						
 						<a class="navbar-brand " href="#">
 							<img src="./assets/images/NETACCI.svg" alt="logo">
@@ -127,7 +127,7 @@
 				
 					</nav>
 					<div class="header-hero row">
-						<div class="hero-details col-12 col-lg-6">
+						<div class="hero-details col-12 col-md-7 col-lg-6">
 							<h3 class="hero-text mb-2"> Hello! I'm Chineta Adinnu</h3>
 							<h1 class="hero-title mt-3">Frontend <span class="hero-span">Developer</span></h1>
 							<h1 class="hero-title mt-3">Ninja<span><svg class="ninja" width="54" height="54" viewBox="0 0 54 54" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -138,12 +138,12 @@
 								</g>
 								</svg></span></h1>
 							<p class="hero-p mt-4"> I am a passionate problem solver and writer based in Lagos, Nigeria. I started my coding journey in 2020 during the lockdown via HNG internship and Shecode Africa and since then I have developed great love and passion for solving problems using different web technologies.</p>
-							<div class="buttons">
+							<div class="buttons d-flex flex-row">
 								<a href="#" class="button-primary">Get in touch</a>
 								<a href="" class="button-secondary">Download Resume</a>
 							</div>
 						</div>
-						<div class="hero-image col-12 col-lg-3">
+						<div class="hero-image col-12 col-md-5 col-lg-3">
 							<img src="./assets/images/profpic.png" alt="profile picture" class="img-fluid">
 						</div>
 					</div>
@@ -161,11 +161,14 @@
 						<h3 class="skills-title">I am a ...</h3>
 
 					</div>
-					<div class="skills-box row justify-content-evenly">
+					<div class="skills-box row justify-content-evenly mt-4">
 						<div class="fe col-12 col-md-5 d-flex ">
-							<img src="/assets/images/fe-img.png" class="img-fluid">
+							<div class="img-fe w-50">
+								<img src="/assets/images/fe-img.png" class="img-fluid">
+							</div>
+							
 							<div class="skills-text">
-								<h3>
+								<h3 class="skill-type-title">
 									Frontend Developer
 								</h3>
 								<p class="mt-3">
@@ -176,9 +179,12 @@
 
 						</div>
 						<div class="it col-12 col-md-5 d-flex">
-							<img src="/assets/images/it-img.png" class="img-fluid">
+							<div class="it-img w-50">
+								<img src="/assets/images/it-img.png" class="img-fluid">
+							</div>
+							
 							<div class="skills-text">
-								<h3>
+								<h3 class="skill-type-title">
 									IT Specialist
 								</h3>
 								<p class="mt-3">
@@ -192,499 +198,614 @@
 					</div>
 
 
+				
+				<div class="skills-watermark ">
+					<div class="container skil-div">
+						<h1 class="skill-water-text text-center">
+							Skills
+						</h1>
+						<div class="w-100 text-center">
+							<img src="./assets/images/illus.png" alt="illustration" class=" illus-img">
+						</div>
+						<div class="skills-img mt-5 text-center">
+							<div class="skil1">
+								<span class="iconify skill-icon" data-icon="bx:bxl-html5"></span>
+								<h4 class="icon-text">HTML</h4>
+							</div>
+							<div class="skil2">
+								<span class="iconify  skill-icon" data-icon="bx:bxl-css3"></span>
+								<h4 class="icon-text">CSS</h4>
+							</div>
+							<div class="skil3">
+								<span class="iconify  skill-icon" data-icon="bx:bxl-javascript"></span>
+								<h4 class="icon-text">JavaScript</h4>
+							</div>
+							<div class="skil4">
+								<span class="iconify skill-icon" data-icon="bx:bxl-bootstrap"></span>
+								<h4 class="icon-text">Bootstrap</h4>
+							</div>
+							<div class="skil5">
+								<span class="iconify  skill-icon" data-icon="bx:bxl-wordpress"></span>
+								<h4 class="icon-text">Wordpress</h4>
+							</div>
+								
+							<div class="skil6">
+								<span class="iconify  skill-icon" data-icon="bx:bxl-git"></span>
+								<h4 class="icon-text">Git</h4>
+							</div>
+							<div class="skil7">
+								<span class="iconify skill-icon" data-icon="bx:bxl-sass"></span>
+								<h4 class="icon-text">SASS</h4>
+							</div>
+							<div class="skil8">
+								<span class="iconify  skill-icon" data-icon="bx:bxl-react"></span>
+								<h4 class="icon-text">React</h4>
+							</div>
+							<div class="skil9">
+								<span class="iconify  skill-icon" data-icon="bx:bxl-redux"></span>
+								<h4 class="icon-text">Redux</h4>
+							</div>
+							<div class="skil10">
+								<span class="iconify skill-icon" data-icon="bx:bxl-microsoft"></span>
+								<h4 class="icon-text">Microsoft 365 setup</h4>
+							</div>
+							<div class="skil11">
+								<span class="iconify skill-icon" data-icon="gridicons:domains"></span>
+								<h4 class="icon-text">Web hosting</h4>
+							</div>
+						
+		
+	
+						</div>
+						<div class="bbtn mt-5 mx-auto">
+							<a href="#" class="button-secondary justify-content-center w-50 mx-auto ">Download Resume</a>
+						</div>
+						
+						
+					</div>
+				</div>
+			</div>
+
+			</section>
+		
+			
+			<section id="work" class="work-section mt-5 skill-section">
+				<div class="container">
+					<div class="skills-header text-center">
+						<h5 class="skill-mini-title">Projects</h5>
+						<h3 class="skills-title mt-4">See what I have done</h3>
+
+					</div>
+					<div class="works mobile-works slider text-center mt-5">
+						<div class="work1 mt-4">
+							<a href="https://emuut.com" target="_blank" class="">
+								<img
+									src="./assets/images/proj1.png"
+									alt="card"
+									class="card w-75 mx-auto img-fluid"
+							/></a>
+							<p class=" card-title mt-3 ">
+								Emuut landing page
+							</p>
+							<p class="card-text">
+								The landing page of emuut company built with html, css and js
+							</p>
+							<div class="button-tagss justify-content-center d-flex flex-row">
+								<button class="button-tag">HTML</button>
+								<button class="button-tag">CSS</button>
+								<button class="button-tag">JavaScript</button>
+								<button class="button-tag">Bootstrap</button>
+							</div>
+							<div class="btnns mt-4">
+								<button class="button-white w-75 mx-auto">Private Repository</button>
+								<a href="https://emuut.com" class=" w-75 mx-auto button-secondary mt-4">View live</a>
+							</div>
+						</div>
+						<div class="work2 ">
+							<a href="https://deleoye.ng/" target="_blank" class="">
+								<img
+									src="./assets/images/proj2.png"
+									alt="card"
+									class="card w-75 mx-auto img-fluid"
+							/></a>
+							<p class=" card-title mt-3 ">
+								Dele Oye and associates website
+							</p>
+							<p class="card-text">
+								This is a complete cooporate website built with wordpress, It has a working contact and subscription form.
+							</p>
+							<div class="button-tagss justify-content-center d-flex flex-row">
+								<button class="button-tag">Wordpress</button>
+								<button class="button-tag">Web hosting</button>
+								
+							</div>
+							<div class="btnns mt-4">
+								<button class="mx-auto w-75 button-white">Private Repository</button>
+								<a href="https://deleoye.ng/" class=" w-75 button-secondary mx-auto mt-4">View live</a>
+							</div>
+						</div>
+						<div class="work3  ">
+							<a href="https://wouly-you-rather.netlify.app/" target="_blank" class="">
+								<img
+									src="./assets/images/proj3.png"
+									alt="card"
+									class="card w-75 mx-auto img-fluid"
+							/></a>
+							<p class=" card-title mt-3 ">
+								Would you rather
+							</p>
+							<p class="card-text">
+								This project was built as part of my udacity nano degree program
+							</p>
+							<div class="button-tagss justify-content-center d-flex flex-row">
+								<button class="button-tag">React</button>
+								<button class="button-tag">Redux</button>
+								
+							</div>
+							<div class="btnns mt-4">
+								<button class="button-white w-75 mx-auto">Private Repository</button>
+								<a href="https://wouly-you-rather.netlify.app/" class="button-secondary mt-4 w-75 mx-auto">View live</a>
+							</div>
+						</div>
+						<div class="work4  ">
+							<a href="https://memory-game-sca.netlify.app/" target="_blank" class="">
+								<img
+									src="./assets/images/proj4.png"
+									alt="card"
+									class="card w-75 mx-auto img-fluid"
+							/></a>
+							<p class=" card-title mt-3 ">
+								Memory Game
+							</p>
+							<p class="card-text">
+							This was a project built during my internship at SheCode Africa using javascript
+							</p>
+							<div class="button-tagss justify-content-center d-flex flex-row">
+								<button class="button-tag">HTML</button>
+								<button class="button-tag">CSS</button>
+								<button class="button-tag">JavaScript</button>
+								<button class="button-tag">Bootstrap</button>
+							</div>
+							<div class="btnns mt-4">
+								<button class="w-75 mx-auto button-white">Private Repository</button>
+								<a href="https://memory-game-sca.netlify.app/" class="button-secondary mt-4 w-75 mx-auto">View live</a>
+							</div>
+						</div>
+						<div class="work5  ">
+							<a href="https://emuut-homepage-redo.netlify.app/" target="_blank" class="">
+								<img
+									src="./assets/images/proj5.png"
+									alt="card"
+									class="w-75 mx-auto card img-fluid"
+							/></a>
+							<p class=" card-title mt-3 ">
+								Emuut landing page
+							</p>
+							<p class="card-text">
+								Redesign of the Emuut landing page
+							</p>
+							<div class="button-tagss justify-content-center d-flex flex-row">
+								<button class="button-tag">HTML</button>
+								<button class="button-tag">CSS</button>
+								<button class="button-tag">JavaScript</button>
+								<button class="button-tag">Bootstrap</button>
+							</div>
+							<div class="btnns mt-4">
+								<button class="button-white w-75 mx-auto">Private Repository</button>
+								<a href="https://emuut-homepage-redo.netlify.app/" class="button-secondary mt-4 w-75 mx-auto">View live</a>
+							</div>
+						</div>
+						<div class="work6  ">
+							<a href="https://new-aftercountdown.netlify.app/" target="_blank" class="">
+								<img
+									src="./assets/images/proj6.png"
+									alt="card"
+									class="card mx-auto w-75 img-fluid"
+							/></a>
+							<p class=" card-title mt-3 ">
+								Emuut x The voice collabo page
+							</p>
+							<p class="card-text">
+								A single paged website for The voice awareness on Emuut
+							</p>
+							<div class="button-tagss justify-content-center d-flex flex-row">
+								<button class="button-tag">HTML</button>
+								<button class="button-tag">CSS</button>
+								<button class="button-tag">JavaScript</button>
+								<button class="button-tag">Bootstrap</button>
+							</div>
+							<div class="btnns mt-4">
+								<button class="w-75 button-white mx-auto">Private Repository</button>
+								<a href="https://new-aftercountdown.netlify.app/" class="button-secondary mt-4 w-75 mx-auto">View live</a>
+							</div>
+						</div>
+						<div class="work7 ">
+							<a href="https://emuut-page.netlify.app/" target="_blank" class="">
+								<img
+									src="./assets/images/proj7.png"
+									alt="card"
+									class="card w-75 mx-auto img-fluid"
+							/></a>
+							<p class=" card-title mt-3 ">
+								One page advert 
+							</p>
+							<p class="card-text">
+								Single page website done for Emuut.com for the voice judges advert
+							</p>
+							<div class="button-tagss justify-content-center d-flex flex-row">
+								<button class="button-tag">HTML</button>
+								<button class="button-tag">CSS</button>
+								<button class="button-tag">JavaScript</button>
+								<button class="button-tag">Bootstrap</button>
+							</div>
+							<div class="btnns mt-4">
+								<button class="button-white w-75 mx-auto">Private Repository</button>
+								<a href="https://emuut-page.netlify.app/" class="button-secondary mt-4 w-75 mx-auto">View live</a>
+							</div>
+						</div>
+						<div class="work8 ">
+							<a href="https://benignity-charity.netlify.app/" target="_blank" class="">
+								<img
+									src="./assets/images/proj8.png"
+									alt="card"
+									class="card mx-auto w-75 img-fluid"
+							/></a>
+							<p class=" card-title mt-3 ">
+								Charity website landing page
+							</p>
+							<p class="card-text">
+								Website built during my internship at HNGi7
+							</p>
+							<div class="button-tagss justify-content-center d-flex flex-row">
+								<button class="button-tag">HTML</button>
+								<button class="button-tag">CSS</button>
+								<button class="button-tag">JavaScript</button>
+								<button class="button-tag">Bootstrap</button>
+							</div>
+							<div class="btnns mt-4">
+								<button class="button-white w-75 mx-auto">Private Repository</button>
+								<a href="https://benignity-charity.netlify.app/" class="button-secondary mt-4 w-75 mx-auto">View live</a>
+							</div>
+						</div>
+						<div class="work9 ">
+							<a href="https://cosy-line.netlify.app/" target="_blank" class="">
+								<img
+									src="./assets/images/proj9.png"
+									alt="card"
+									class="card mx-auto w-75 img-fluid"
+							/></a>
+							<p class=" card-title mt-3 ">
+								Interior decor website
+							</p>
+							<p class="card-text">
+								One of the first pages I built in my developer career, I used building this site to learn bootstrap
+							</p>
+							<div class="button-tagss justify-content-center d-flex flex-row">
+								<button class="button-tag">HTML</button>
+								<button class="button-tag">CSS</button>
+								<button class="button-tag">JavaScript</button>
+								<button class="button-tag">Bootstrap</button>
+							</div>
+							<div class="btnns mt-4">
+								<button class="button-white w-75 mx-auto">Private Repository</button>
+								<a href="https://cosy-line.netlify.app/" class="button-secondary mt-4 w-75 mx-auto">View live</a>
+							</div>
+						</div>
+						<div class="work10 ">
+							<a href="https://nigeriaturkeybizcouncil.com/" target="_blank" class="">
+								<img
+									src="./assets/images/proj10.png"
+									alt="card"
+									class="card w-75 mx-auto img-fluid"
+							/></a>
+							<p class=" card-title mt-3 ">
+								Nigerian Turkish Business council website
+							</p>
+							<p class="card-text">
+								Still underconstruction
+							</p>
+							<div class="button-tagss justify-content-center d-flex flex-row">
+								<button class="button-tag">Wordpress</button>
+				
+								<button class="button-tag">Web hosting</button>
+							</div>
+							<div class="btnns mt-4">
+								<button class="button-white w-75 mx-auto">Private Repository</button>
+								<a href="https://nigeriaturkeybizcouncil.com/" class="button-secondary mt-4 w-75 mx-auto">View live</a>
+							</div>
+						</div>
+
+					</div>
+					<div class="works web-works mt-5">
+						<div class="work1 mt-4" data-aos="fade-up"
+						data-aos-easing="linear"
+						data-aos-duration="500"
+						data-aos-delay="300">
+							<a href="https://emuut.com" target="_blank" class="">
+								<img
+									src="./assets/images/proj1.png"
+									alt="card"
+									class="card w-75 img-fluid"
+							/></a>
+							<p class=" card-title mt-3 ">
+								Emuut landing page
+							</p>
+							<p class="card-text">
+								The landing page of emuut company built with html, css and js
+							</p>
+							<div class="button-tagss d-flex flex-row">
+								<button class="button-tag">HTML</button>
+								<button class="button-tag">CSS</button>
+								<button class="button-tag">JavaScript</button>
+								<button class="button-tag">Bootstrap</button>
+							</div>
+							<div class="btnns mt-4">
+								<button class="button-white w-75">Private Repository</button>
+								<a href="https://emuut.com" class=" w-75 button-secondary mt-4">View live</a>
+							</div>
+						</div>
+						<div class="work2 " data-aos="fade-up"
+						data-aos-easing="linear"
+						data-aos-duration="500"
+						data-aos-delay="500">
+							<a href="https://deleoye.ng/" target="_blank" class="" >
+								<img
+									src="./assets/images/proj2.png"
+									alt="card"
+									class="card w-75 img-fluid"
+							/></a>
+							<p class=" card-title mt-3 ">
+								Dele Oye and associates website
+							</p>
+							<p class="card-text">
+								This is a complete cooporate website built with wordpress, It has a working contact and subscription form.
+							</p>
+							<div class="button-tagss d-flex flex-row">
+								<button class="button-tag">Wordpress</button>
+								<button class="button-tag">Web hosting</button>
+								
+							</div>
+							<div class="btnns mt-4">
+								<button class=" w-75 button-white">Private Repository</button>
+								<a href="https://deleoye.ng/" class=" w-75 button-secondary mt-4">View live</a>
+							</div>
+						</div>
+						<div class="work3  " data-aos="fade-up"
+						data-aos-easing="linear"
+						data-aos-duration="500"
+						data-aos-delay="600">
+							<a href="https://wouly-you-rather.netlify.app/" target="_blank" class="">
+								<img
+									src="./assets/images/proj3.png"
+									alt="card"
+									class="card w-75 img-fluid"
+							/></a>
+							<p class=" card-title mt-3 ">
+								Would you rather
+							</p>
+							<p class="card-text">
+								This project was built as part of my udacity nano degree program
+							</p>
+							<div class="button-tagss d-flex flex-row">
+								<button class="button-tag">React</button>
+								<button class="button-tag">Redux</button>
+								
+							</div>
+							<div class="btnns mt-4">
+								<button class="button-white w-75">Private Repository</button>
+								<a href="https://wouly-you-rather.netlify.app/" class="button-secondary mt-4 w-75">View live</a>
+							</div>
+						</div>
+						<div class="work4 " data-aos="fade-up"
+						data-aos-easing="linear"
+						data-aos-duration="500"
+						data-aos-delay="700">
+							<a href="https://memory-game-sca.netlify.app/" target="_blank" class="">
+								<img
+									src="./assets/images/proj4.png"
+									alt="card"
+									class="card w-75 img-fluid"
+							/></a>
+							<p class=" card-title mt-3 ">
+								Memory Game
+							</p>
+							<p class="card-text">
+							This was a project built during my internship at SheCode Africa using javascript
+							</p>
+							<div class="button-tagss d-flex flex-row">
+								<button class="button-tag">HTML</button>
+								<button class="button-tag">CSS</button>
+								<button class="button-tag">JavaScript</button>
+								<button class="button-tag">Bootstrap</button>
+							</div>
+							<div class="btnns mt-4">
+								<button class="w-75 button-white">Private Repository</button>
+								<a href="https://memory-game-sca.netlify.app/" class="button-secondary mt-4 w-75">View live</a>
+							</div>
+						</div>
+						<div class="work5 " data-aos="fade-up"
+						data-aos-easing="linear"
+						data-aos-duration="500"
+						data-aos-delay="800">
+							<a href="https://emuut-homepage-redo.netlify.app/" target="_blank" class="">
+								<img
+									src="./assets/images/proj5.png"
+									alt="card"
+									class="w-75 card img-fluid"
+							/></a>
+							<p class=" card-title mt-3 ">
+								Emuut landing page
+							</p>
+							<p class="card-text">
+								Redesign of the Emuut landing page
+							</p>
+							<div class="button-tagss d-flex flex-row">
+								<button class="button-tag">HTML</button>
+								<button class="button-tag">CSS</button>
+								<button class="button-tag">JavaScript</button>
+								<button class="button-tag">Bootstrap</button>
+							</div>
+							<div class="btnns mt-4">
+								<button class="button-white w-75">Private Repository</button>
+								<a href="https://emuut-homepage-redo.netlify.app/" class="button-secondary mt-4 w-75">View live</a>
+							</div>
+						</div>
+						<div class="work6  " data-aos="fade-up"
+						data-aos-easing="linear"
+						data-aos-duration="500"
+						data-aos-delay="900">
+							<a href="https://new-aftercountdown.netlify.app/" target="_blank" class="">
+								<img
+									src="./assets/images/proj6.png"
+									alt="card"
+									class="card w-75 img-fluid"
+							/></a>
+							<p class=" card-title mt-3 ">
+								Emuut x The voice collabo page
+							</p>
+							<p class="card-text">
+								A single paged website for The voice awareness on Emuut
+							</p>
+							<div class="button-tagss d-flex flex-row">
+								<button class="button-tag">HTML</button>
+								<button class="button-tag">CSS</button>
+								<button class="button-tag">JavaScript</button>
+								<button class="button-tag">Bootstrap</button>
+							</div>
+							<div class="btnns mt-4">
+								<button class="w-75 button-white">Private Repository</button>
+								<a href="https://new-aftercountdown.netlify.app/" class="button-secondary mt-4 w-75">View live</a>
+							</div>
+						</div>
+						<div class="work7 " data-aos="fade-up"
+						data-aos-easing="linear"
+						data-aos-duration="500"
+						data-aos-delay="1000">
+							<a href="https://emuut-page.netlify.app/" target="_blank" class="">
+								<img
+									src="./assets/images/proj7.png"
+									alt="card"
+									class="card w-75 img-fluid"
+							/></a>
+							<p class=" card-title mt-3 ">
+								One page advert 
+							</p>
+							<p class="card-text">
+								Single page website done for Emuut.com for the voice judges advert
+							</p>
+							<div class="button-tagss d-flex flex-row">
+								<button class="button-tag">HTML</button>
+								<button class="button-tag">CSS</button>
+								<button class="button-tag">JavaScript</button>
+								<button class="button-tag">Bootstrap</button>
+							</div>
+							<div class="btnns mt-4">
+								<button class="button-white w-75">Private Repository</button>
+								<a href="https://emuut-page.netlify.app/" class="button-secondary mt-4 w-75">View live</a>
+							</div>
+						</div>
+						<div class="work8 " data-aos="fade-up"
+						data-aos-easing="linear"
+						data-aos-duration="500"
+						data-aos-delay="1100">
+							<a href="https://benignity-charity.netlify.app/" target="_blank" class="">
+								<img
+									src="./assets/images/proj8.png"
+									alt="card"
+									class="card w-75 img-fluid"
+							/></a>
+							<p class=" card-title mt-3 ">
+								Charity website landing page
+							</p>
+							<p class="card-text">
+								Website built during my internship at HNGi7
+							</p>
+							<div class="button-tagss d-flex flex-row">
+								<button class="button-tag">HTML</button>
+								<button class="button-tag">CSS</button>
+								<button class="button-tag">JavaScript</button>
+								<button class="button-tag">Bootstrap</button>
+							</div>
+							<div class="btnns mt-4">
+								<button class="button-white w-75">Private Repository</button>
+								<a href="https://benignity-charity.netlify.app/" class="button-secondary mt-4 w-75">View live</a>
+							</div>
+						</div>
+						<div class="work9 " data-aos="fade-up"
+						data-aos-easing="linear"
+						data-aos-duration="500"
+						data-aos-delay="1200">
+							<a href="https://cosy-line.netlify.app/" target="_blank" class="">
+								<img
+									src="./assets/images/proj9.png"
+									alt="card"
+									class="card w-75 img-fluid"
+							/></a>
+							<p class=" card-title mt-3 ">
+								Interior decor website
+							</p>
+							<p class="card-text">
+								One of the first pages I built in my developer career, I used building this site to learn bootstrap
+							</p>
+							<div class="button-tagss d-flex flex-row">
+								<button class="button-tag">HTML</button>
+								<button class="button-tag">CSS</button>
+								<button class="button-tag">JavaScript</button>
+								<button class="button-tag">Bootstrap</button>
+							</div>
+							<div class="btnns mt-4">
+								<button class="button-white w-75">Private Repository</button>
+								<a href="https://cosy-line.netlify.app/" class="button-secondary mt-4 w-75">View live</a>
+							</div>
+						</div>
+						<div class="work10 " data-aos="fade-up"
+						data-aos-easing="linear"
+						data-aos-duration="500"
+						data-aos-delay="1300">
+							<a href="https://nigeriaturkeybizcouncil.com/" target="_blank" class="">
+								<img
+									src="./assets/images/proj10.png"
+									alt="card"
+									class="card w-75 img-fluid"
+							/></a>
+							<p class=" card-title mt-3 ">
+								Nigerian Turkish Business council website
+							</p>
+							<p class="card-text">
+								Still underconstruction
+							</p>
+							<div class="button-tagss d-flex flex-row">
+								<button class="button-tag">Wordpress</button>
+				
+								<button class="button-tag">Web hosting</button>
+							</div>
+							<div class="btnns mt-4">
+								<button class="button-white w-75">Private Repository</button>
+								<a href="https://nigeriaturkeybizcouncil.com/" class="button-secondary mt-4 w-75">View live</a>
+							</div>
+						</div>
+
+					</div>
+					<div class="bttn w-50 mx-auto mt-5 text-center">
+						<a
+							href="https://github.com/Netacci?tab=repositories"
+							class="button-primary w-50 mx-auto"
+							>View All</a
+						>
+					</div>
+
 				</div>
 
 
 			</section>
 		
-
-			<div class="head mt-5">
-				<div class="container">
-					<!-- <div class="col-12 col-md-4 col-lg-3 prof">
-						<img
-							src="./assets/images/prof.jpeg"
-							alt="profile picture"
-							class="profpic img-fluid"
-						/>
-					</div> -->
-					<div class="bg-full mt-5">
-						<h1 class="text-center text mt-5">
-							Hola<span class="icon-span">👋</span>! I'm Chineta Adinnu
-						</h1>
-						<div id="typed-strings" class="text text-center">
-							<h3 class="text-center text mt-5">
-								A frontend developer and IT Consultant
-							</h3>
-							<h1 class="text-center text mt-5">
-								Welcome to my Portfolio <span class="icon-span">😍</span>
-							</h1>
-						</div>
-						<div class="text-center mt-4">
-							<span id="typed" class="text text-center"></span>
-						</div>
-						<div class="justify-content-evenly mt-5 row">
-							<div class="col-md-3 profi">
-								<img
-									src="./assets/images/prof.jpeg"
-									alt="profile picture"
-									class="profpic img-fluid"
-								/>
-							</div>
-							<div
-								class="
-									col-12 col-md-6
-									prof-dec
-									text-center text-title
-									mt-3
-									align-self-lg-center
-								"
-							>
-								<p class="prof-decr">
-									I am passionate about creating technical solutions, solving
-									problems, and writing.
-								</p>
-								<p class="prof-decr">
-									I started my coding journey in 2020 during the lockdown via
-									HNG internship and Shecode Africa and since then I have
-									developed great love and passion for solving problems using
-									different web technologies.
-								</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-			<!-- HEADER ENDS -->
-			<!-- portfolio -->
-			<div class="port" id="skill">
-				<div class="container">
-					<div class="prof mt-5">
-						<div class="stacks text-center container mt-5">
-							<h1 class="text-center text">
-								Some of the <span class="text-italics">things</span> I do
-								<span class="icon-span">😉</span>
-							</h1>
-							<ul class="skills mt-5">
-								<li><span class="icon-span spanny">▶</span> Html</li>
-								<li><span class="icon-span spanny">▶</span> CSS</li>
-								<li>
-									<span class="icon-span spanny">▶</span> Responsive website
-									using Bootstrap
-								</li>
-								<li><span class="icon-span spanny">▶</span> JavaScript</li>
-								<li><span class="icon-span spanny">▶</span> React JS</li>
-								<li>
-									<span class="icon-span spanny">▶</span> Wordpress
-									configuration and maintenance
-								</li>
-								<li>
-									<span class="icon-span spanny">▶</span> Web hosting and domain
-									configuration
-								</li>
-								<li><span class="icon-span spanny">▶</span> Github</li>
-								<li><span class="icon-span spanny">▶</span> Material UI</li>
-								<li>
-									<span class="icon-span spanny">▶</span> Animation using
-									keyframe, animate.css and aos
-								</li>
-								<li>
-									<span class="icon-span spanny">▶</span> Microsoft 365 setup
-									and configuration
-								</li>
-								<li><span class="icon-span spanny">▶</span> Research</li>
-								<li>
-									<span class="icon-span spanny">▶</span> ISP recommendation and
-									installation
-								</li>
-								<li>
-									<span class="icon-span spanny">▶</span> Learning: Redux and
-									React Native
-								</li>
-								<li>
-									<span class="icon-span spanny">▶</span> And so many other
-									things...
-								</li>
-							</ul>
-						</div>
-						<div class="prof-dec container text-center text-title mt-5">
-							<p class="prof-decr container text-center">
-								90% of websites are viewed from mobile and that is why I always
-								use the mobile approach in creating reponsive websites. This
-								makes website load faster on mobile and enhances user
-								experience.
-							</p>
-						</div>
-					</div>
+			
+				
 					<div class="bg-ful text2"  id="work">
-						<p class="text2 text-center mt-5 text-italics">
-							Most of these sites are hosted on github and netlify using github
-							cli
-						</p>
-						<h1 class="text-center mt-5">My Projects</h1>
-						<div
-							class="
-								cards
-								container
-								mobile
-								slider
-								row
-								justify-content-center
-								mx-auto
-							"
-							data-aos="fade-up"
-							data-aos-easing="linear"
-							data-aos-duration="700"
-							data-aos-delay="200"
-						>
-							<div class="col-12 col-lg-3 mt-4 me-lg-5">
-								<a href="https://emuut.com" target="_blank" class="card">
-									<img
-										src="./assets/images/proj1.png"
-										alt="card"
-										class="card img-fluid"
-								/></a>
-								<p class="card-text mt-3 text-center">
-									Frontend done with Html, css and javascript
-								</p>
-							</div>
-							<div class="col-12 col-md-8 col-lg-3 mt-4 me-lg-5">
-								<a href="https://deleoye.ng/" target="_blank" class="card">
-									<img
-										src="./assets/images/proj2.png"
-										alt="card"
-										class="card img-fluid"
-								/></a>
-								<p class="card-text mt-3 text-center">Built with Wordpress</p>
-							</div>
-							<div class="col-12 col-md-8 col-lg-3 mt-4 me-lg-5">
-								<a
-									href="https://wouly-you-rather.netlify.app/"
-									target="_blank"
-									class="card"
-								>
-									<img
-										src="./assets/images/proj3.png"
-										alt="card"
-										class="card img-fluid"
-								/></a>
-								<p class="card-text mt-3 text-center">Built with React JS</p>
-							</div>
-
-							<div class="col-12 col-md-8 col-lg-3 mt-4 me-lg-5">
-								<a
-									href="https://memory-game-sca.netlify.app/"
-									target="_blank"
-									class="card"
-								>
-									<img
-										src="./assets/images/proj4.png"
-										alt="card"
-										class="card img-fluid"
-								/></a>
-								<p class="card-text mt-3 text-center">
-									Simple memory game made with Javascript
-								</p>
-							</div>
-							<div class="col-12 col-md-8 col-lg-3 mt-4 me-lg-5">
-								<a
-									href="https://emuut-homepage-redo.netlify.app/"
-									target="_blank"
-									class="card"
-								>
-									<img
-										src="./assets/images/proj5.png"
-										alt="card"
-										class="card img-fluid"
-								/></a>
-								<p class="card-text mt-3 text-center">
-									Built with html, css and bootstrap
-								</p>
-							</div>
-
-							<div class="col-12 col-md-8 col-lg-3 mt-4 me-lg-5">
-								<a
-									href="https://new-aftercountdown.netlify.app/"
-									target="_blank"
-									class="card"
-								>
-									<img
-										src="./assets/images/proj6.png"
-										alt="card"
-										class="card img-fluid"
-								/></a>
-								<p class="card-text mt-3 text-center">
-									Built with html, css and bootstrap
-								</p>
-							</div>
-
-							<div class="col-12 col-md-8 col-lg-3 mt-4 me-lg-5">
-								<a
-									href="https://emuut-page.netlify.app/"
-									target="_blank"
-									class="card"
-								>
-									<img
-										src="./assets/images/proj7.png"
-										alt="card"
-										class="card img-fluid"
-								/></a>
-								<p class="card-text mt-3 text-center">
-									Built with html, css and bootstrap
-								</p>
-							</div>
-							<div class="col-12 col-md-8 col-lg-3 mt-4 me-lg-5">
-								<a
-									href="https://benignity-charity.netlify.app/"
-									target="_blank"
-									class="card"
-								>
-									<img
-										src="./assets/images/proj8.png"
-										alt="card"
-										class="card img-fluid"
-								/></a>
-								<p class="card-text mt-3 text-center">
-									Built with html, css and bootstrap
-								</p>
-							</div>
-							<div class="col-12 col-md-8 col-lg-3 mt-4 me-lg-5">
-								<a
-									href="https://cosy-line.netlify.app/"
-									target="_blank"
-									class="card"
-								>
-									<img
-										src="./assets/images/proj9.png"
-										alt="card"
-										class="card img-fluid"
-								/></a>
-								<p class="card-text mt-3 text-center">
-									Built with html, css and bootstrap
-								</p>
-							</div>
-							<div class="col-12 col-md-8 col-lg-3 mt-4 me-lg-5">
-								<a
-									href="https://nigeriaturkeybizcouncil.com/"
-									target="_blank"
-									class="card"
-								>
-									<img
-										src="./assets/images/proj10.png"
-										alt="card"
-										class="card img-fluid"
-								/></a>
-								<p class="card-text mt-3 text-center">
-									Building with Wordpress(Under construction)
-								</p>
-							</div>
-						</div>
-						<div class="cards container web row justify-content-center mx-auto">
-							<div
-								class="col-12 col-lg-3 mt-4 me-lg-5"
-								data-aos="fade-up"
-								data-aos-easing="linear"
-								data-aos-duration="1000"
-								data-aos-delay="500"
-							>
-								<a href="https://emuut.com" target="_blank" class="card">
-									<img
-										src="./assets/images/proj1.png"
-										alt="card"
-										class="card img-fluid"
-								/></a>
-								<p class="card-text mt-3 text-center">
-									Frontend done with Html, css and javascript
-								</p>
-							</div>
-							<div
-								class="col-12 col-md-8 col-lg-3 mt-4 me-lg-5"
-								data-aos="fade-up"
-								data-aos-easing="linear"
-								data-aos-duration="1000"
-								data-aos-delay="1000"
-							>
-								<a href="https://deleoye.ng/" target="_blank" class="card">
-									<img
-										src="./assets/images/proj2.png"
-										alt="card"
-										class="card img-fluid"
-								/></a>
-								<p class="card-text mt-3 text-center">Built with Wordpress</p>
-							</div>
-							<div
-								class="col-12 col-md-8 col-lg-3 mt-4 me-lg-5"
-								data-aos="fade-up"
-								data-aos-easing="linear"
-								data-aos-duration="1000"
-								data-aos-delay="1500"
-							>
-								<a
-									href="https://wouly-you-rather.netlify.app/"
-									target="_blank"
-									class="card"
-								>
-									<img
-										src="./assets/images/proj3.png"
-										alt="card"
-										class="card img-fluid"
-								/></a>
-								<p class="card-text mt-3 text-center">Built with React JS</p>
-							</div>
-
-							<div
-								class="col-12 col-md-8 col-lg-3 mt-4 me-lg-5"
-								data-aos="fade-up"
-								data-aos-easing="linear"
-								data-aos-duration="1000"
-							>
-								<a
-									href="https://memory-game-sca.netlify.app/"
-									target="_blank"
-									class="card"
-								>
-									<img
-										src="./assets/images/proj4.png"
-										alt="card"
-										class="card img-fluid"
-								/></a>
-								<p class="card-text mt-3 text-center">
-									Simple memory game made with Javascript
-								</p>
-							</div>
-							<div
-								class="col-12 col-md-8 col-lg-3 mt-4 me-lg-5"
-								data-aos="fade-up"
-								data-aos-easing="linear"
-								data-aos-duration="1000"
-								data-aos-delay="500"
-							>
-								<a
-									href="https://emuut-homepage-redo.netlify.app/"
-									target="_blank"
-									class="card"
-								>
-									<img
-										src="./assets/images/proj5.png"
-										alt="card"
-										class="card img-fluid"
-								/></a>
-								<p class="card-text mt-3 text-center">
-									Built with html, css and bootstrap
-								</p>
-							</div>
-
-							<div
-								class="col-12 col-md-8 col-lg-3 mt-4 me-lg-5"
-								data-aos="fade-up"
-								data-aos-easing="linear"
-								data-aos-duration="1000"
-								data-aos-delay="1000"
-							>
-								<a
-									href="https://new-aftercountdown.netlify.app/"
-									target="_blank"
-									class="card"
-								>
-									<img
-										src="./assets/images/proj6.png"
-										alt="card"
-										class="card img-fluid"
-								/></a>
-								<p class="card-text mt-3 text-center">
-									Built with html, css and bootstrap
-								</p>
-							</div>
-
-							<div
-								class="col-12 col-md-8 col-lg-3 mt-4 me-lg-5"
-								data-aos="fade-up"
-								data-aos-easing="linear"
-								data-aos-duration="1000"
-							>
-								<a
-									href="https://emuut-page.netlify.app/"
-									target="_blank"
-									class="card"
-								>
-									<img
-										src="./assets/images/proj7.png"
-										alt="card"
-										class="card img-fluid"
-								/></a>
-								<p class="card-text mt-3 text-center">
-									Built with html, css and bootstrap
-								</p>
-							</div>
-							<div
-								class="col-12 col-md-8 col-lg-3 mt-4 me-lg-5"
-								data-aos="fade-up"
-								data-aos-easing="linear"
-								data-aos-duration="1000"
-								data-aos-delay="500"
-							>
-								<a
-									href="https://benignity-charity.netlify.app/"
-									target="_blank"
-									class="card"
-								>
-									<img
-										src="./assets/images/proj8.png"
-										alt="card"
-										class="card img-fluid"
-								/></a>
-								<p class="card-text mt-3 text-center">
-									Built with html, css and bootstrap
-								</p>
-							</div>
-							<div
-								class="col-12 col-md-8 col-lg-3 mt-4 me-lg-5"
-								data-aos="fade-up"
-								data-aos-easing="linear"
-								data-aos-duration="1000"
-								data-aos-delay="1000"
-							>
-								<a
-									href="https://cosy-line.netlify.app/"
-									target="_blank"
-									class="card"
-								>
-									<img
-										src="./assets/images/proj9.png"
-										alt="card"
-										class="card img-fluid"
-								/></a>
-								<p class="card-text mt-3 text-center">
-									Built with html, css and bootstrap
-								</p>
-							</div>
-							<div
-								class="col-12 col-md-8 col-lg-3 mt-4 me-lg-5"
-								data-aos="fade-up"
-								data-aos-easing="linear"
-								data-aos-duration="1000"
-							>
-								<a
-									href="https://nigeriaturkeybizcouncil.com/"
-									target="_blank"
-									class="card"
-								>
-									<img
-										src="./assets/images/proj10.png"
-										alt="card"
-										class="card img-fluid"
-								/></a>
-								<p class="card-text mt-3 text-center">
-									Built with Wordpress(Under construction)
-								</p>
-							</div>
-						</div>
-						<div class="bttn mt-5 text-center">
-							<a
-								href="https://github.com/Netacci?tab=repositories"
-								class="btn button"
-								>View All</a
-							>
-						</div>
+					
+					
+					
+						
 
 						<h2 class="art text-center mt-5 mb-5">
 							Check out some articles I've written on
@@ -693,8 +814,7 @@
 							>
 						</h2>
 					</div>
-				</div>
-			</div>
+			
 
 			<!-- work -->
 			<div

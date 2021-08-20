@@ -15,19 +15,19 @@ $(window).on('load', function () {
 window.addEventListener('scroll', () => {
 	if (window.pageYOffset > 50) {
 		nav.classList.add('navscroll');
-		nav.classList.remove('nave')
+		nav.classList.remove('nave');
 	} else {
 		nav.classList.remove('navscroll');
-		nav.classList.add('nave')
+		nav.classList.add('nave');
 	}
 });
 
-var typed = new Typed('#typed', {
-	stringsElement: '#typed-strings',
-	typeSpeed: 100,
-	loop: true,
-	loopCount: Infinity,
-});
+// var typed = new Typed('#typed', {
+// 	stringsElement: '#typed-strings',
+// 	typeSpeed: 100,
+// 	loop: true,
+// 	loopCount: Infinity,
+// });
 
 $('.slider').slick({
 	speed: 800,
